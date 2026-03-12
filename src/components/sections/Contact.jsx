@@ -12,6 +12,8 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+      
+
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -42,7 +44,7 @@ export const Contact = () => {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="from_name"
                 required
                 value={formData.name}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
