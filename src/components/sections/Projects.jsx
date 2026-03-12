@@ -111,7 +111,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://e-commerce-nine-tan-58.vercel.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
