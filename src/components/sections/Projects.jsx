@@ -50,7 +50,7 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">VR Escape Room Game</h3>
               <p className="text-gray-400 mb-4">
-                Players must navigate an object to escape from the room with the VR Controllers as I/O. 
+                VR Game that players must navigate an object to escape from the room with the VR Controllers as I/O. 
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Unity", "C#"].map((tech, key) => (
@@ -88,11 +88,11 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Full-stack e-commerce with modern UI, AI-powered recommendations, secure payment
+                integration, products sorting and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Gemini API"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -130,7 +130,7 @@ export const Projects = () => {
               <h3 className="text-xl font-bold mb-2">Travel Planner App</h3>
               <p className="text-gray-400 mb-4">
                 Full-stack travel planning app with trip management, interactive maps,
-photo galleries, and social features built with Next.js and PostgreSQL.
+photo galleries, and social integration features built with Next.js and PostgreSQL.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Next.js", "TypeScript", "PostgreSQL", "Prisma","NextAuth","Google Maps API","UploadThing","Tailwind CSS"].map((tech, key) => (
