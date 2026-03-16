@@ -14,7 +14,7 @@ export const Home = () => {
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
             I am a passionate and driven Computer Science graduate, set to complete my degree this March.
-            I am excited to bring my skills and dedication into the industry and grow as a Data Scientist.
+            I am excited to bring my skills and dedication into the industry and grow as a successful developer.
           </p>
           <div className="flex justify-center space-x-4">
             <a
