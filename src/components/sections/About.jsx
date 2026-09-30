@@ -54,7 +54,7 @@ export const About = () => {
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                     >
                       {tech}
@@ -70,37 +70,54 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> Baschelor of Computer Science </strong> - University of Wollongong
+                  <strong>Bachelor of Computer Science</strong> - University of Wollongong
                   (2023-2026)
                 </li>
                 <li>
-                  <strong> Diploma in Management Studies </strong> - Singapore Institute of Management
+                  <strong>Diploma in Management Studies</strong> - Singapore Institute of Management
                   (2019-2020)
                 </li>
               </ul>
             </div>
+
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4"> 📜 Certifications & Training </h3>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong>AWS Certified Solutions Architect – Associate</strong> (SAA-C03)
+                </li>
+                <li>
+                  <strong>AWS Certified AI Practitioner</strong>
+                </li>
+                <li>
+                  <strong>AWS Certified Cloud Practitioner</strong>
+                </li>
+                <li>
+                  <strong>Ethical Hacking Workshop</strong> - CENTRE for Micro-Credentials
+                </li>
+              </ul>
+            </div>
+
+            <div className="md:col-span-2 p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 💼 Professional Experience </h3>
-              <div className="space-y-4 text-gray-300">
-  <div>
-    <strong>Data Analytics Project</strong> - TalentLink Polaris Industry Masterclass
-    <br />
-    <span className="text-sm text-gray-400">(December 2024)</span>
-  </div>
+              <div className="space-y-5 text-gray-300">
+                <div>
+                  <strong>Live Event Interpreter & Production Coordinator</strong> - K-pop Concerts & Fan Meetings
+                  <p className="text-sm text-gray-400 mt-1">
+                    Interpreted and coordinated on-site operations for 60+ shows, including BLACKPINK, TWICE,
+                    SEVENTEEN, ENHYPEN and Stray Kids. Reviewed artist riders and aligned requirements between
+                    artist management and local promoters.
+                  </p>
+                </div>
 
-  <div>
-    <strong>Ethical Hacking Workshop</strong> - CENTRE for Micro-Credentials
-    <br />
-    <span className="text-sm text-gray-400">(March 2025)</span>
-  </div>
-
-  <div>
-    <strong>AWS Certified AI Practitioner</strong> - Amazon Web Services (AWS)
-    <br />
-    <span className="text-sm text-gray-400">(July 2025)</span>
-    <p className="text-sm">Certification</p>
-  </div>
-</div>
+                <div>
+                  <strong>Data Analytics Trainee</strong> - TalentLink Polaris Industry Masterclass
+                  <span className="text-sm text-gray-400"> (December 2024)</span>
+                  <p className="text-sm text-gray-400 mt-1">
+                    Built a Random Forest prediction model (AUC 0.85) using Python, SQL and Pandas.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
