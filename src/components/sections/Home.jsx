@@ -8,28 +8,31 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
-            Hi, I'm Lee Chaehyeon
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
+            Hi, I’m Lee Chaehyeon
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I am a passionate and driven Computer Science graduate, set to complete my degree this March.
-            I am excited to bring my skills and dedication into the industry and grow as a successful developer.
+          <p className="text-xl md:text-2xl font-semibold text-white mb-6">
+            Cloud Engineer, AWS Certified Solutions Architect
           </p>
-          <div className="flex justify-center space-x-4">
+
+          <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto leading-relaxed">
+            Computer Science graduate based in Singapore. I build serverless, full-stack applications on
+            AWS, turning real problems from my own work into systems that run in production.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-4">
             <a
               href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
+              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
             >
-              View Projects
+              View projects
             </a>
-
             <a
               href="#contact"
-              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
-             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
+              className="border border-blue-500/50 text-blue-400 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-500/10"
             >
-              Contact Me
+              Contact me
             </a>
           </div>
         </div>
