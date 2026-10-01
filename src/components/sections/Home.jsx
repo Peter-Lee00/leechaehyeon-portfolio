@@ -13,12 +13,14 @@ export const Home = () => {
           </h1>
 
           <p className="text-xl md:text-2xl font-semibold text-white mb-6">
-            Cloud Engineer, AWS Certified Solutions Architect
+            Interpreter, Cloud Engineer and Full-Stack Developer
           </p>
 
           <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto leading-relaxed">
-            Computer Science graduate based in Singapore. I build serverless, full-stack applications on
-            AWS, turning real problems from my own work into systems that run in production.
+            Computer Science graduate based in Singapore. I support live events and projects as an interpreter 
+            while building serverless, full-stack applications on AWS, turning real-world problems 
+            from my own work into practical systems that are deployed and used.
+
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
